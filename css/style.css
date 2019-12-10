@@ -1,4 +1,6 @@
-
+.sortable-handler {
+	touch-action: none;
+  }
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -132,6 +134,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	margin: 0 20px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-weight: bold;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
 	transition: background .3s ease-in-out;
@@ -139,12 +142,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 .navbar-custom .nav li a:hover {
 	outline: 0;
 	color: black;
-	background-color: transparent;
+	background-color: white;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #526cbb;
+	color: black;
+	font-weight: bolder;
+	background-color: white;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
