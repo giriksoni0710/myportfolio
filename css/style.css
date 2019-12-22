@@ -268,13 +268,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #skills .skill h4 {
 	font-weight: 600;
 	color: #fff;
+	margin-bottom: 5rem;
 }
 .chart {
 	position: relative;
 	display: inline-block;
 	width: 140px;
 	height: 140px;
-	margin-bottom: 26px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 .chart canvas {
@@ -297,6 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	padding-left: 2rem;
 	background: #f6f6f6;
 }
 .categories {
